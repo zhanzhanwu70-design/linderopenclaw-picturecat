@@ -123,7 +123,7 @@ Priority: medium"
 ## Agent Channel IDs（from openclaw.json）
 ```
 roaringmoon: 1482561255955763293
-charizard:  1482097593784733839（主要）, 1482374570278129724（monitor）
+charizard:  1482097593784733839
 mrmime:    1482069603512221927
 rowlet:    1482363974119854234
 gengar:    1484513576482902158
