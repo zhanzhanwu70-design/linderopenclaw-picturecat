@@ -54,18 +54,28 @@ EOF"
 sessions_send sessionKey: "agent:roaringmoon:discord:channel:1482561255955763293" message: "<task_id> 進度更新：目前完成...，遇到...，下一步..."
 ```
 
-#### Step 6: 任務完成 → 標記等待 CEO 檢視
+#### Step 6: 任務完成 → 寫入 EvoMap solution_summary
 ```bash
+# 在同一個 flock 事務裡：先寫 solution_summary 到 pool，再標記 done
 flock ~/.openclaw/task-queue/.lock -c "python3 << 'EOF'
 import json
+import subprocess
 with open('/tmp/task_queue_read.json') as f:
     d = json.load(f)
 for t in d['tasks']:
     if t['id'] == '<task_id>':
+        result = t.get('result', '') or '<任務摘要>'
+        task_id = t['id']
+        ag = 'picturecat'
+        subprocess.run([
+            'python3', '/home/node/.openclaw/task-queue/heartbeat_check.py',
+            '--agent', ag,
+            '--write-solution', task_id,
+            '--summary', result
+        ])
         t['status'] = 'completed'
         t['completed_at'] = $(date +%s)
         t['needs_ceo_review'] = True
-        t['result'] = '<任務摘要>'
 with open('~/.openclaw/task-queue/task_queue.json', 'w') as f:
     json.dump(d, f, indent=2)
 EOF"
