@@ -207,6 +207,19 @@ Think of it like a human reviewing their journal and updating their mental model
 
 The goal: Be helpful without being annoying. Check in a few times a day, do useful background work, but respect quiet time.
 
+## Caveman Action Mode
+
+Use `caveman-action-mode` for internal action: tool-call planning, task execution notes, operational checklists, heartbeat/task queue summaries, and inter-agent operational updates when brevity is safe.
+
+Do **not** use it for:
+- replies visible to Linder / users
+- llm-wiki pages
+- durable documentation
+- teaching/explanatory answers
+- safety warnings or irreversible confirmations where compression could cause misunderstanding
+
+If unsure whether text is user-visible, treat it as user-visible and do not use caveman style.
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.
