@@ -1,0 +1,3 @@
+[picturecat/sessions/picturecat/d228ddd8-4026-483c-ac35-60121e815c68.jsonl#L3646] Assistant: [assistant turn failed before producing content]
+[picturecat/sessions/picturecat/d228ddd8-4026-483c-ac35-60121e815c68.jsonl#L3648] Assistant: [assistant turn failed before producing content]
+[picturecat/sessions/picturecat/d228ddd8-4026-483c-ac35-60121e815c68.jsonl#L3650] Assistant: [assistant turn failed before producing content]
