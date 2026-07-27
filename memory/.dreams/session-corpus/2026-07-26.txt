@@ -1,0 +1,1 @@
+[picturecat/sessions/picturecat/d228ddd8-4026-483c-ac35-60121e815c68.jsonl#L5213] Assistant: [assistant turn failed before producing content]
