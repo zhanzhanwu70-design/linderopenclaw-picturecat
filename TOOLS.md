@@ -46,4 +46,4 @@ When you need an API key, use:
 const fs = require('fs');
 const apiKey = fs.readFileSync(process.env.OPENAI_API_KEY_DIR, 'utf8').trim();
 
-OPENAI_API_KEY_DIR = /home/node/.openclaw/secrets/openai-api-key.txt
+OPENAI_API_KEY_DIR = /home/amr/.openclaw/secrets/openai-api-key.txt
