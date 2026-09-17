@@ -1,0 +1,2 @@
+[picturecat/sessions/picturecat/03345118-23d7-4f28-9b80-049feb5df6f1#L1046] User: health-probe: reply with one short line confirming operational and ready for tasks
+[picturecat/sessions/picturecat/03345118-23d7-4f28-9b80-049feb5df6f1#L1047] Assistant: Operational and ready for tasks.
