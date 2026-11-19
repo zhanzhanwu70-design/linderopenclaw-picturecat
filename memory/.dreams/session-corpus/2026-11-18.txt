@@ -1,1 +1,6 @@
 [picturecat/sessions/picturecat/03345118-23d7-4f28-9b80-049feb5df6f1#L1189] Assistant: pong — alive and idle, no errors.
+[picturecat/sessions/picturecat/03345118-23d7-4f28-9b80-049feb5df6f1#L1193] Assistant: pong — no active task, no errors; Discord delivery context is connected and healthy.
+[picturecat/sessions/picturecat/03345118-23d7-4f28-9b80-049feb5df6f1#L1195] Assistant: picturecat keep-alive: pong — no active task, no recent errors; idle and healthy.
+[picturecat/sessions/picturecat/03345118-23d7-4f28-9b80-049feb5df6f1#L1199] Assistant: pong — no active task, no errors in the last 3h; Discord inbound working: yes (origin provider is discord, delivery context intact).
+[picturecat/sessions/picturecat/03345118-23d7-4f28-9b80-049feb5df6f1#L1201] Assistant: picturecat keep-alive: pong — no active task, no errors; Discord inbound/outbound both look working (origin + delivery context intact).
+[picturecat/sessions/picturecat/03345118-23d7-4f28-9b80-049feb5df6f1#L1203] Assistant: pong — no active task, no recent errors; Discord inbound/outbound looks healthy (origin + delivery context both intact).
