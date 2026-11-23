@@ -1,2 +1,7 @@
 [picturecat/sessions/picturecat/03345118-23d7-4f28-9b80-049feb5df6f1#L1251] Assistant: pong 🐱
 [picturecat/sessions/picturecat/03345118-23d7-4f28-9b80-049feb5df6f1#L1253] Assistant: pong — 1) lane 存活 2) 近 3 小時無錯誤／429 3) 無進行中任務 4) Discord inbound 正常。
+[picturecat/sessions/picturecat/03345118-23d7-4f28-9b80-049feb5df6f1#L1255] Assistant: pong — 1) lane alive/idle 2) no errors or provider 429s in last 3h 3) no in-flight tasks 4) Discord inbound normal.
+[picturecat/sessions/picturecat/03345118-23d7-4f28-9b80-049feb5df6f1#L1257] Assistant: pong — 1) lane 存活且空閒 2) 近 3 小時無錯誤或 provider 429 3) 無進行中任務 4) Discord inbound 正常。
+[picturecat/sessions/picturecat/03345118-23d7-4f28-9b80-049feb5df6f1#L1259] Assistant: pong — 1) lane alive/responsive 2) no errors or provider 429 in the last ~3h 3) no in-flight or pending tasks 4) Discord inbound/outbound normal, just quiet 5) nothing needing attention from rowlet.
+[picturecat/sessions/picturecat/03345118-23d7-4f28-9b80-049feb5df6f1#L1261] Assistant: pong — 1) lane 存活且空閒 2) 近 3 小時無錯誤或 provider 429 3) 無進行中／待處理任務 4) Discord inbound/outbound 正常，目前閒置無流量。
+[picturecat/sessions/picturecat/03345118-23d7-4f28-9b80-049feb5df6f1#L1263] Assistant: pong — 1) lane alive/idle 2) no errors or provider 429 in 19:00–22:00 3) no pending or in-flight tasks 4) Discord inbound/outbound normal.
